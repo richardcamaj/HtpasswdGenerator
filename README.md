@@ -34,13 +34,6 @@ $htpasswdContent = $htpasswdGenerator0->generateHtpasswd($username, $password);
 
 
 ```sh
-// Username
-$username = 'johnDoe';
-
-// User password
-$password = 'mypassword0123';
-
-
 $htpasswdGenerator0 = new HtpasswdGenerator();
 
 /* 
@@ -53,13 +46,6 @@ $htaccessPart = $htpasswdGenerator0->getHtaccessPart("/var/www/html","My Protect
 
 ### Example 3
 ```sh
-// Username
-$username = 'johnDoe';
-
-// User password
-$password = 'mypassword0123';
-
-
 $htpasswdGenerator0 = new HtpasswdGenerator();
 
 /* 
