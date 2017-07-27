@@ -1,7 +1,7 @@
-# HtpasswdGenerator
+# HtpasswdGenerator version 1.0.1
 Htpasswd allows an easy and effective way to lock folders under the Apache web server, HtpasswordGenerator helps you set up.
 
-![version: 1.0.1](https://img.shields.io/badge/flat-1.0.3-brightgreen.svg?label=version)
+![version: 1.0.1](https://img.shields.io/badge/flat-1.0.1-brightgreen.svg?label=version)
 ![status: stable](https://img.shields.io/badge/flat-stable-brightgreen.svg?label=status)
 ![licence: mit](https://img.shields.io/badge/flat-mit-brightgreen.svg?label=license)
 
