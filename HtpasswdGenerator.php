@@ -79,10 +79,7 @@ class HtpasswdGenerator {
     * @return {string}
     */
    public function getHtaccessPart($pathToHtpasswdFile = "/path/to/.htpasswd", $message = "Protected Area") {
-      $tmp = "AuthType Basic\n
-                AuthName \"$message\"\n
-                AuthUserFile $pathToHtpasswdFile\n
-                Require valid-user\n";
+      $tmp = "AuthType Basic\nAuthName \"$message\"\nAuthUserFile $pathToHtpasswdFile\nRequire valid-user\n";
       return $tmp;
    }
    
@@ -94,10 +91,7 @@ class HtpasswdGenerator {
     * @return {string}
     */
    public function getHtaccessPartHtml($pathToHtpasswdFile = "/path/to/.htpasswd", $message = "Protected Area") {
-      $tmp = "AuthType Basic<br>
-                AuthName \"$message\"<br>
-                AuthUserFile $pathToHtpasswdFile<br>
-                Require valid-user<br>";
+      $tmp = "AuthType Basic<br>AuthName \"$message\"<br>AuthUserFile $pathToHtpasswdFile<br>Require valid-user<br>";
       return $tmp;
    }
 }
