@@ -2,12 +2,12 @@
 /**
  * HtpasswordGenerator - easy way to lock folders under Apache web server
  *
- * Copyright (c) Richard Camaj
+ * Copyright (c) 2019 ZabezpecWeb.CZ (https://zabezpecweb.cz)
  * Licensed under the MIT (file: LICENSE)
  * 
  * @name HtpasswordGenerator
- * @author Richard Camaj <richard.camaj@gmail.com>
- * @copyright Richard Camaj <richard.camaj@gmail.com>
+ * @author ZabezpecWeb.CZ <info@zabezpecweb.cz>
+ * @copyright ZabezpecWeb.CZ <info@zabezpecweb.cz>
  * @license MIT
  * @version 1.0.1
  */
